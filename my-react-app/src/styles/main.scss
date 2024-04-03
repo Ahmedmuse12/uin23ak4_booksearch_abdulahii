@@ -10,7 +10,7 @@ body {
     min-height: 100vh;
   }
   
-  // SCSS for .card komponenten
+  
   .card {
     background-color: #222;
     padding: 2rem;
@@ -20,12 +20,12 @@ body {
     max-width: 500px;
     text-align: center;
   
-    // Nestet SCSS for elementer inni .card
+    
     h1, h2, h3, p {
       margin: 0.5rem 0;
     }
   
-    // Styling for bilde inni .card
+    
     img {
       max-width: 100%;
       height: auto;
@@ -35,7 +35,7 @@ body {
     }
   }
   
-  // SCSS for søkeboks om nødvendig
+  
   .search-bar {
     margin: 1rem 0;
   
