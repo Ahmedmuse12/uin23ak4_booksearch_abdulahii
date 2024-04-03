@@ -1,4 +1,4 @@
-export default function Bookcard({keyBook, title, first_publish_year, author_name, ratings_average, coverImage, id_amazon}) {
+export default function Bookcard({keyBook, title, first_publish_year, author_name, ratings_average, coverImage}) {
 
     return (
     <>
