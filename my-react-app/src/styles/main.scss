@@ -1,0 +1,66 @@
+body {
+    background-color: #fff;
+    color:black;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  // SCSS for .card komponenten
+  .card {
+    background-color: #222;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  
+    // Nestet SCSS for elementer inni .card
+    h1, h2, h3, p {
+      margin: 0.5rem 0;
+    }
+  
+    // Styling for bilde inni .card
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 0.25rem;
+      box-shadow: 0 2px 4px rgba(255, 255, 255, 0.4);
+      margin: 1rem 0;
+    }
+  }
+  
+  // SCSS for søkeboks om nødvendig
+  .search-bar {
+    margin: 1rem 0;
+  
+    input[type="text"] {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      width: calc(100% - 4rem);
+    }
+  
+    button {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+      border: none;
+      background-color: #333;
+      color: #fff;
+      cursor: pointer;
+      margin-left: 1rem;
+    }
+  }
+  
+  // Responsiv design ved hjelp av media queries
+  @media (max-width: 600px) {
+    .card {
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
