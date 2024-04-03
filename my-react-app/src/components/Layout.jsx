@@ -9,7 +9,11 @@ export default function Layout({children, query, setQuery}){
             </nav>
         </header>
         <main>
-           
+            <section className="searchBar">
+                <SearchBar content={query} setQuery={setQuery}>
+                </SearchBar>
+            </section>
+        {children}
         </main>
         </>
     )
